@@ -49,7 +49,8 @@
   <h2>🐍 My Contributions 🐍</h2>
   <br>
   <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/mokayaj857/mokayaj857/output/github-contribution-grid-snake.svg" />
-  
+  <p>🔍 Dive into my repositories to see detailed discussions and contributions that push the boundaries of tech!</p>
+</div>
   <br/><br/><br/>
 </div>
 
