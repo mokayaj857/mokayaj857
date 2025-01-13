@@ -1,238 +1,78 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>John Mokaya - Portfolio</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
 
-        body {
-            background: linear-gradient(to bottom right, #0a192f, #112240);
-            color: #e2e8f0;
-            line-height: 1.6;
-        }
 
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 2rem;
-        }
+<h1 align="center">
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+JOHN+MOKAYA!;" />
+</h1>
+</h1>
 
-        .header {
-            text-align: center;
-            margin-bottom: 3rem;
-            animation: fadeIn 1s ease-in;
-        }
+<h3 align="center">A passionate software developer from kenya</h3>
 
-        .header h1 {
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
-            color: #64ffda;
-        }
+<br/>
 
-        .header h3 {
-            color: #8892b0;
-            font-size: 1.2rem;
-        }
+<div align="center">
+ 
+ 🔭 I’m currently working on **herdsecure an IOT PROJECT**
+ 
+ 🌱 I’m currently learning **Javascript, React Native, My sql**
 
-        .info-section {
-            background: rgba(255, 255, 255, 0.05);
-            border-radius: 10px;
-            padding: 2rem;
-            margin-bottom: 2rem;
-            backdrop-filter: blur(10px);
-            animation: slideUp 1s ease-out;
-        }
+💬 Ask me about **Node.js, React, Firebase... or anything [here](https://github.com/mokayaj857)**
 
-        .info-item {
-            margin-bottom: 1rem;
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-        }
+⚡ Fun fact **Game of Thrones Night's Watch cloaks are made from Ikea rugs**
 
-        .info-item span {
-            color: #64ffda;
-        }
+ </div>
+ 
+<div align="center"> 
+  <a href="mailto:mokayaj857@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=yellow" />
+  </a>
+  <a href="https://linkedin.com/in/john-mokaya-3b926a261" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" />
+  </a>
+  <a href="https://john-mokaya.vercel.app/" target="_blank">
+     <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white" target="_blank" /> <!-- sqlite, safari, google-chrome are other good icon options -->
+  </a>
+</div>
 
-        .social-links {
-            display: flex;
-            justify-content: center;
-            gap: 2rem;
-            margin: 2rem 0;
-        }
+ <hr/>
+ 
+<h2 align="center">⚒️ Languages-Frameworks-Tools ⚒️</h2>
+<br/>
+<div align="center">
+    <img src="https://skillicons.dev/icons?i=react,bootstrap,html,css,vscode,github,figma,tailwind,git,r" />
+    <img src="https://skillicons.dev/icons?i=nodejs,python,javascript,firebase,c,java,nextjs,mysql" /><br>
+</div>
 
-        .social-link {
-            color: #64ffda;
-            text-decoration: none;
-            padding: 0.5rem 1rem;
-            border: 1px solid #64ffda;
-            border-radius: 5px;
-            transition: all 0.3s ease;
-        }
+<br/>
+<hr/>
+<div align="center">
+  <h2>🐍 My Contributions 🐍</h2>
+  <br>
+  <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/mokayaj857/mokayaj857/output/github-contribution-grid-snake.svg" />
+  
+  <br/><br/><br/>
+</div>
 
-        .social-link:hover {
-            background: #64ffda20;
-            transform: translateY(-3px);
-        }
+<hr/>
 
-        .stats-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 1.5rem;
-            margin: 2rem 0;
-        }
+<h2 align="center">⚡ Stats ⚡</h2>
+<br>
+<div align=center>
+ <img width=390 src="https://github-readme-streak-stats.herokuapp.com/?user=mokayaj857&count_private=true&theme=react&border_radius=10" alt="streak stats"/>
+<img width=390 src="https://github-readme-stats.vercel.app/api?username=mokayaj857&count_private=true&show_icons=true&theme=react&rank_icon=github&border_radius=10" alt="readme stats" />
 
-        .stats-item {
-            background: rgba(255, 255, 255, 0.05);
-            padding: 1rem;
-            border-radius: 10px;
-            text-align: center;
-        }
+  <br/>stats" />
+  <br/>
+  <img width=325 align="center" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=mokayaj857&hide=HTML&langs_count=8&layout=compact&theme=react&border_radius=10&size_weight=0.5&count_weight=0.5&exclude_repo=github-readme-stats" alt="top langs" />
+</div>
 
-        .stats-item img {
-            width: 100%;
-            height: auto;
-            border-radius: 5px;
-        }
+<br/><br/>
 
-        .skills-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-            gap: 1rem;
-            margin: 2rem 0;
-        }
+<hr/>
 
-        .skill-item {
-            background: rgba(255, 255, 255, 0.05);
-            padding: 0.8rem;
-            border-radius: 5px;
-            text-align: center;
-            transition: all 0.3s ease;
-        }
+<br/>
 
-        .skill-item:hover {
-            transform: translateY(-5px);
-            background: rgba(100, 255, 218, 0.1);
-        }
+<div align="center">
+<a href='https://ko-fi.com/V7V4RAK9C' target='_blank'><img height='64' style='border:0px;height:64px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+</div>
 
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
-        }
-
-        @keyframes slideUp {
-            from {
-                opacity: 0;
-                transform: translateY(20px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        .snake-contribution {
-            width: 100%;
-            margin: 2rem 0;
-            background: rgba(255, 255, 255, 0.05);
-            border-radius: 10px;
-            padding: 1rem;
-        }
-
-        .support-button {
-            display: inline-block;
-            background: #64ffda;
-            color: #0a192f;
-            padding: 0.8rem 2rem;
-            border-radius: 5px;
-            text-decoration: none;
-            font-weight: bold;
-            transition: all 0.3s ease;
-            margin-top: 2rem;
-        }
-
-        .support-button:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 5px 15px rgba(100, 255, 218, 0.3);
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <header class="header">
-            <h1 id="typing-text"></h1>
-            <h3>A passionate software developer from Kenya</h3>
-        </header>
-
-        <section class="info-section">
-            <div class="info-item">
-                <span>🔭</span> Currently working on: <strong>HerdSecure IoT Project</strong>
-            </div>
-            <div class="info-item">
-                <span>🌱</span> Learning: <strong>JavaScript, React Native, MySQL</strong>
-            </div>
-            <div class="info-item">
-                <span>💬</span> Ask me about: <strong>Node.js, React, Firebase</strong>
-            </div>
-            <div class="info-item">
-                <span>⚡</span> Fun fact: <strong>Game of Thrones Night's Watch cloaks are made from Ikea rugs</strong>
-            </div>
-        </section>
-
-        <div class="social-links">
-            <a href="mailto:mokayaj857@gmail.com" class="social-link">Email</a>
-            <a href="https://linkedin.com/in/john-mokaya-3b926a261" class="social-link">LinkedIn</a>
-            <a href="https://john-mokaya.vercel.app/" class="social-link">Portfolio</a>
-            <a href="https://github.com/mokayaj857" class="social-link">GitHub</a>
-        </div>
-
-        <section class="stats-grid">
-            <div class="stats-item">
-                <img src="https://github-readme-streak-stats.herokuapp.com/?user=mokayaj857&theme=dark&hide_border=true" alt="GitHub Streak">
-            </div>
-            <div class="stats-item">
-                <img src="https://github-readme-stats.vercel.app/api?username=mokayaj857&show_icons=true&theme=dark&hide_border=true" alt="GitHub Stats">
-            </div>
-        </section>
-
-        <h2 style="text-align: center; color: #64ffda; margin: 2rem 0;">⚒️ Skills</h2>
-        <div class="skills-grid">
-            <div class="skill-item">React</div>
-            <div class="skill-item">Node.js</div>
-            <div class="skill-item">JavaScript</div>
-            <div class="skill-item">Python</div>
-            <div class="skill-item">Firebase</div>
-            <div class="skill-item">MySQL</div>
-            <div class="skill-item">Next.js</div>
-            <div class="skill-item">HTML/CSS</div>
-        </div>
-
-        <div class="snake-contribution">
-            <img src="https://raw.githubusercontent.com/mokayaj857/mokayaj857/output/github-contribution-grid-snake.svg" alt="snake eating contributions" style="width: 100%;">
-        </div>
-
-        <div style="text-align: center;">
-            <a href="https://ko-fi.com/V7V4RAK9C" class="support-button">
-                Support My Work ☕
-            </a>
-        </div>
-    </div>
-
-    <script>
-        new Typed('#typing-text', {
-            strings: ["Hi There! 👋", "I'm John Mokaya!"],
-            typeSpeed: 50,
-            backSpeed: 50,
-            loop: true
-        });
-    </script>
-</body>
-</html>
+<br/>
