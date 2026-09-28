@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="210" viewBox="0 0 1100 210">
+  <rect width="1100" height="210" rx="10" fill="#070605" stroke="#3f3228" stroke-width="1.2"/>
+  <text x="24" y="28" fill="#c4a574" font-family="ui-monospace, Consolas, monospace" font-size="11" letter-spacing="2">RF FRAME  /  LoRa  /  captured nbo-gw-01</text>
+  <text x="24" y="56" fill="#57534e" font-family="ui-monospace, Consolas, monospace" font-size="13">00000000  48 45 52 44  00 00 08 57  c0 a8 00 01  de ad be ef  |HERD...W........|</text>
+  <text x="24" y="78" fill="#d6d3d1" font-family="ui-monospace, Consolas, monospace" font-size="13">00000010  00 00 03 59  ff ff f4 1c  00 23 1f 94  68 65 61 64  |...Y.....#..head|</text>
+  <text x="24" y="100" fill="#7dd3a0" font-family="ui-monospace, Consolas, monospace" font-size="13">00000020  63 6f 75 6e  74 00 6e 62  6f 00 6b 65  00 00 08 57  |count.nbo.ke...W|</text>
+  <text x="24" y="122" fill="#d6d3d1" font-family="ui-monospace, Consolas, monospace" font-size="13">00000030  7b 22 74 61  67 22 3a 22  30 78 38 35  37 22 7d 0a  |{"tag":"0x857"}.|</text>
+  <text x="24" y="154" fill="#e85d04" font-family="ui-monospace, Consolas, monospace" font-size="12">magic=HERD  ver=1  tag=0x0857  latE7=-12863999  lngE7=36817222  crc=ok</text>
+  <text x="24" y="180" fill="#a8a29e" font-family="ui-monospace, Consolas, monospace" font-size="12">payload committed as bytes32  |  off-chain blob  |  on-chain attestation</text>
+</svg>

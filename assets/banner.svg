@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="340" viewBox="0 0 1100 340" role="img" aria-labelledby="title desc">
+  <title id="title">John Mokaya - Nairobi, range to chain</title>
+  <desc id="desc">Field-station banner: Rift dusk, ear-tag identity, chain constellation</desc>
+  <defs>
+    <linearGradient id="dusk" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a100c"/>
+      <stop offset="48%" stop-color="#0b0a09"/>
+      <stop offset="100%" stop-color="#0e1620"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="92%" cy="8%" r="42%">
+      <stop offset="0%" stop-color="#e85d04" stop-opacity="0.55"/>
+      <stop offset="55%" stop-color="#c45c26" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#c45c26" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="copper" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8a5a32" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#c4a574"/>
+      <stop offset="80%" stop-color="#e85d04"/>
+      <stop offset="100%" stop-color="#e85d04" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1100" height="340" fill="url(#dusk)"/>
+  <rect width="1100" height="340" fill="url(#sun)"/>
+
+  <path d="M0 268 C 180 250, 320 278, 480 262 S 760 248, 1100 270 L 1100 340 L 0 340 Z" fill="#120e0c" opacity="0.85"/>
+  <path d="M0 278 C 220 266, 400 288, 560 272 S 860 258, 1100 282" fill="none" stroke="#c4a574" stroke-width="0.6" opacity="0.45"/>
+
+  <g fill="#f4efe6" opacity="0.55">
+    <circle cx="86" cy="48" r="1.2"/>
+    <circle cx="142" cy="92" r="0.9"/>
+    <circle cx="210" cy="36" r="1.1"/>
+    <circle cx="318" cy="70" r="0.8"/>
+    <circle cx="390" cy="28" r="1"/>
+    <circle cx="980" cy="120" r="1.1"/>
+    <circle cx="1040" cy="64" r="0.8"/>
+    <circle cx="900" cy="44" r="1"/>
+  </g>
+
+  <g transform="translate(48,42)">
+    <rect x="0" y="0" width="118" height="86" rx="10" fill="#16110e" stroke="#c4a574" stroke-width="1.2"/>
+    <circle cx="22" cy="22" r="6" fill="none" stroke="#e85d04" stroke-width="1.6"/>
+    <circle cx="22" cy="22" r="2.2" fill="#e85d04"/>
+    <text x="36" y="26" fill="#c4a574" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11" letter-spacing="2">TAG</text>
+    <text x="14" y="52" fill="#f4efe6" font-family="Georgia, Times New Roman, serif" font-size="18" font-weight="700">0x857</text>
+    <text x="14" y="72" fill="#a8a29e" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="9" letter-spacing="1.6">KE / RANGE</text>
+  </g>
+
+  <text x="48" y="188" fill="#f4efe6" font-family="Georgia, Times New Roman, serif" font-size="64" font-weight="700">John Mokaya</text>
+  <text x="52" y="222" fill="#c4a574" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13" letter-spacing="3.2">NAIROBI  /  FULL STACK  /  WEB3</text>
+  <rect x="52" y="238" width="220" height="2" fill="url(#copper)"/>
+  <text x="52" y="268" fill="#d6d3d1" font-family="Georgia, Times New Roman, serif" font-size="16">Livestock telemetry, written on-chain.</text>
+
+  <g transform="translate(760,48)" fill="none" stroke="#c4a574" stroke-width="1.15">
+    <ellipse cx="150" cy="118" rx="86" ry="42" opacity="0.85"/>
+    <ellipse cx="54" cy="102" rx="32" ry="26"/>
+    <path d="M38 86 C 22 52, 8 48, 18 78" stroke="#e85d04" stroke-width="1.6"/>
+    <path d="M62 82 C 78 46, 98 50, 86 80" stroke="#e85d04" stroke-width="1.6"/>
+    <path d="M96 154 L 90 198" opacity="0.5"/>
+    <path d="M128 158 L 126 204" opacity="0.5"/>
+    <path d="M168 158 L 176 204" opacity="0.5"/>
+    <path d="M198 150 L 214 196" opacity="0.5"/>
+    <polygon points="150,88 172,100 172,124 150,136 128,124 128,100" stroke="#7dd3a0" stroke-width="1.4"/>
+  </g>
+
+  <g transform="translate(910,166)">
+    <circle r="4" fill="#7dd3a0">
+      <animate attributeName="opacity" values="1;0.35;1" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="4" fill="none" stroke="#7dd3a0" stroke-width="1.2">
+      <animate attributeName="r" values="4;22" dur="2.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.7;0" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <rect x="0" y="336" width="1100" height="4" fill="#e85d04" opacity="0.85"/>
+</svg>

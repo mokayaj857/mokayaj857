@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="90" viewBox="0 0 1100 90">
+  <rect width="1100" height="90" fill="#0b0a09"/>
+  <text x="550" y="40" text-anchor="middle" fill="#c4a574" font-family="ui-monospace, Consolas, monospace" font-size="11" letter-spacing="4">END OF LOG</text>
+  <text x="550" y="64" text-anchor="middle" fill="#f4efe6" font-family="Georgia, serif" font-size="18">If the animal moves, the chain should know.</text>
+</svg>
