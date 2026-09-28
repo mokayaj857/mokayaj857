@@ -138,7 +138,37 @@ def board() -> None:
     im.save(ROOT / "board.png", optimize=True)
 
 
+def panel(draw: ImageDraw.ImageDraw, x: int, y: int, w: int, h: int, title: str, lines: list[str]) -> None:
+    draw.rounded_rectangle((x, y, x + w, y + h), 10, outline=PHOS, width=2)
+    draw.text((x + 22, y + 22), title, font=font(15, True), fill=GOLD)
+    yy = y + 56
+    for line in lines:
+        draw.text((x + 22, yy), line, font=font(18), fill=BONE)
+        yy += 32
+
+
+def lab() -> None:
+    im = Image.new("RGB", (1400, 280), INK)
+    d = ImageDraw.Draw(im)
+    for y in range(0, 280, 3):
+        d.line((0, y, 1400, y), fill=(10, 14, 13))
+    d.rectangle((0, 0, 8, 280), fill=PHOS)
+    d.text((28, 18), "PIPELINE  /  product speaks vm without lying", font=font(14), fill=DIM)
+
+    panel(d, 28, 48, 300, 196, "SURFACE", ["React  Next  TypeScript", "the part people touch"])
+    panel(d, 360, 48, 300, 196, "KERNEL", ["Node  GraphQL  SQL", "Python  Docker  Git"])
+    panel(d, 692, 48, 300, 196, "ISA", ["EVM  Substrate  eUTxO", "Move  Foundry  Aiken"])
+    panel(d, 1024, 48, 348, 196, "QUEUE", ["Substrate   Move   ZK", "stdin open"])
+
+    for x in (336, 668, 1000):
+        d.polygon([(x, 140), (x + 16, 148), (x, 156)], fill=PHOS)
+
+    d.rectangle((0, 274, 1400, 280), fill=PHOS)
+    im.save(ROOT / "lab.png", optimize=True)
+
+
 if __name__ == "__main__":
     banner()
     board()
-    print("wrote banner.png board.png")
+    lab()
+    print("wrote banner.png board.png lab.png")
